@@ -1,10 +1,17 @@
-body {
+.background {
+  /* content: ""; */
   background-image: url("/homework2/water.jpg");
-  background-blend-mode: exclusion;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 h3 {
-  color: ivory;
+  color: rgb(20, 131, 200);
 }
 
 .footer {
@@ -44,5 +51,6 @@ img {
 }
 
 .gallery img {
+  padding: 5px;
   width: 180px;
 }
