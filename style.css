@@ -1,0 +1,48 @@
+body {
+  background-image: url("/homework2/water.jpg");
+  background-blend-mode: exclusion;
+}
+
+h3 {
+  color: ivory;
+}
+
+.footer {
+  position: fixed;
+  bottom: 5px;
+  background-color: ivory;
+  clear: both;
+  text-align: center;
+}
+
+.spacing {
+  margin-top: 20px;
+}
+
+/* contacts */
+
+.inputs {
+  margin-top: 50px;
+}
+
+/* homepage */
+
+img {
+  width: 100%;
+  height: inherit;
+}
+
+.about {
+  margin-top: 30px;
+}
+
+/* portfolio */
+
+.gallery {
+  background-color: ivory;
+  max-width: 850px;
+}
+
+.gallery img {
+  width: 180px;
+}
