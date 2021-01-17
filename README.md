@@ -14,4 +14,20 @@ HOMEPAGE
 
 - Import of a card with text and an image;
 
--
+PORTFOLIO
+
+- Created a row for the gallery;
+
+- Loaded placeholder images, as thumbnails;
+
+CONTACT
+
+- Inserted inputs fields for name, last name, email and message area;
+
+- Added a submit button;
+
+FOR THE WHOLE PROJECT
+
+- added some semantic tags;
+
+- fixed the opacity for the background image;

@@ -1,6 +1,18 @@
-.background {
-  /* content: ""; */
+/* main {
+  height: fit-content;
+  width: auto;
+  opacity: 10;
+  z-index: 1;
+  display: block;
+  position: relative;
+} */
+
+.content::before {
+  content: "";
   background-image: url("/homework2/water.jpg");
+  background-repeat: repeat;
+  height: 1100px;
+  width: auto;
   opacity: 0.5;
   top: 0;
   left: 0;
@@ -10,6 +22,28 @@
   z-index: -1;
 }
 
+/* main {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
+}
+
+.background::after {
+  content: "";
+  background: url("/homework2/water.jpg");
+  background-repeat: repeat;
+  height: 2000px;
+  width: auto;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+} */
+
 h3 {
   color: rgb(20, 131, 200);
 }
@@ -18,7 +52,7 @@ h3 {
   position: fixed;
   bottom: 5px;
   background-color: ivory;
-  clear: both;
+  /* clear: both; */
   text-align: center;
 }
 
@@ -48,9 +82,14 @@ img {
 .gallery {
   background-color: ivory;
   max-width: 850px;
+  margin-left: 10px;
 }
 
 .gallery img {
   padding: 5px;
   width: 180px;
+}
+
+.galleryHeader {
+  margin-left: 10px;
 }
