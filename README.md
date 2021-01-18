@@ -33,3 +33,4 @@ FOR THE WHOLE PROJECT
 - fixed the opacity for the background image, created a div wrapping all the contents, then used CSS to set the opacity of the background image without effecting the content
 
 <img href="portfolio.png">
+<a href="https://github.com/Gio86krt/Responsiveness-Portfolio">
