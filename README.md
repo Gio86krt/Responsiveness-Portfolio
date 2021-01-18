@@ -31,3 +31,5 @@ FOR THE WHOLE PROJECT
 - added some semantic tags;
 
 - fixed the opacity for the background image, created a div wrapping all the contents, then used CSS to set the opacity of the background image without effecting the content
+
+<img href="portfolio.png">

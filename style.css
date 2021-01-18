@@ -28,7 +28,7 @@
 
 main::before {
   content: "";
-  background: url("water.jpg");
+  background-image: url("water.jpg");
   background-repeat: repeat;
   background-size: cover;
   opacity: 0.5;
