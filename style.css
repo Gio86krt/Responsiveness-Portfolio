@@ -1,40 +1,15 @@
-/* main {
-  height: fit-content;
-  width: auto;
-  opacity: 10;
+/* pseudo section to wrap all the content */
+/* .background {
+  display: block;
+  position: relative;
   z-index: 1;
-  display: block;
-  position: relative;
 } */
 
-.content::before {
-  content: "";
-  background-image: url("/homework2/water.jpg");
+/* set the opacity of background image */
+/* .content::before {
+  background-image: url("/Responsiveness-Portfolio/water.jpg");
   background-repeat: repeat;
-  height: 1100px;
-  width: auto;
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
-
-/* main {
-  width: 200px;
-  height: 200px;
-  display: block;
-  position: relative;
-}
-
-.background::after {
-  content: "";
-  background: url("/homework2/water.jpg");
-  background-repeat: repeat;
-  height: 2000px;
-  width: auto;
+  background-size: cover;
   opacity: 0.5;
   top: 0;
   left: 0;
@@ -43,19 +18,40 @@
   position: absolute;
   z-index: -1;
 } */
+
+.background {
+  min-height: 1100px;
+  width: auto;
+  display: block;
+  position: relative;
+}
+
+main::before {
+  content: "";
+  background: url("water.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
 
 h3 {
   color: rgb(20, 131, 200);
 }
-
+/* footer fixed at the bottom of the page */
 .footer {
   position: fixed;
   bottom: 5px;
   background-color: ivory;
-  /* clear: both; */
   text-align: center;
 }
 
+/* spacing from the top */
 .spacing {
   margin-top: 20px;
 }

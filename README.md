@@ -6,7 +6,7 @@
 
 - Use of Bootstrap framework to import HTML elements;
 
-- Division of the main container into smaller ones for proper styling;
+- Division of the main container into smaller ones for proper styling, used the Bootstrap grids to set rows and columns
 
 HOMEPAGE
 
@@ -30,4 +30,4 @@ FOR THE WHOLE PROJECT
 
 - added some semantic tags;
 
-- fixed the opacity for the background image;
+- fixed the opacity for the background image, created a div wrapping all the contents, then used CSS to set the opacity of the background image without effecting the content
