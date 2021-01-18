@@ -32,12 +32,8 @@ FOR THE WHOLE PROJECT
 
 - fixed the opacity for the background image, created a div wrapping all the contents, then used CSS to set the opacity of the background image without effecting the content
 
-![Portfolio-GiovanniOrlando](https://github.com/Gio86krt/Responsiveness-Portfolio)
+[Portfolio-GiovanniOrlando](https://github.com/Gio86krt/Responsiveness-Portfolio)
 
-![screenshot 1](/assets/portfolio.png)
-
-<img href="Responsiveness-Portfolio\portfolio.png">
-<img href="\Responsiveness-Portfolio\portfolio.png">
-<img href="/assets/portfolio.png">
-<img href="assets/portfolio.png">
-<img src="asssets/portfolio.png">
+![screenshot index](/assets/index.png)
+![screenshot portfolio](/assets/portfolio.png)
+![screenshot contacts](/assets/contact.png)
