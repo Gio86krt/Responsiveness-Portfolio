@@ -34,6 +34,9 @@ FOR THE WHOLE PROJECT
 
 ![sreenshot1] (\Responsiveness-Portfolio\portfolio.png)
 ![sreenshot1] ("\Responsiveness-Portfolio\portfolio.png")
-<a href="https://github.com/Gio86krt/Responsiveness-Portfolio">
-<img src="Responsiveness-Portfolio\portfolio.png">
-<img src="\Responsiveness-Portfolio\portfolio.png">
+![portfolio](https://github.com/Gio86krt/Responsiveness-Portfolio)
+<img href="Responsiveness-Portfolio\portfolio.png">
+<img href="\Responsiveness-Portfolio\portfolio.png">
+<img href="/assets/portfolio.png">
+<img href="assets/portfolio.png">
+<img src="asssets/portfolio.png">
