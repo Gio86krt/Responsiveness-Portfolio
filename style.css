@@ -46,6 +46,8 @@ h3 {
 /* footer fixed at the bottom of the page */
 .footer {
   position: fixed;
+  width: 100%;
+  left: 0px;
   bottom: 5px;
   background-color: ivory;
   text-align: center;
@@ -53,13 +55,13 @@ h3 {
 
 /* spacing from the top */
 .spacing {
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 /* contacts */
 
 .inputs {
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 /* homepage */
@@ -70,7 +72,7 @@ img {
 }
 
 .about {
-  margin-top: 30px;
+  padding-top: 30px;
 }
 
 /* portfolio */
