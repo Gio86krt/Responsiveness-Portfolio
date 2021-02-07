@@ -1,5 +1,5 @@
 .background {
-  min-height: 1100px;
+  min-height: 600px;
   width: auto;
   display: block;
   position: relative;
@@ -44,7 +44,7 @@ h3 {
   position: fixed;
   width: 100%;
   left: 0px;
-  bottom: 5px;
+  bottom: 1px;
   background-color: rgb(39, 39, 38);
   text-align: center;
   color: ivory;
@@ -63,6 +63,15 @@ h3 {
 
 .btn {
   margin-top: 20px;
+}
+
+h4 {
+  color: crimson;
+  padding-right: 10px;
+}
+
+.links {
+  margin-top: 15px;
 }
 
 /* homepage */
