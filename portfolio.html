@@ -20,7 +20,9 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Giovanni Orlando</a>
+            <a class="navbar-brand" href="index.html">Giovanni Orlando <br>
+                <p class="tiny">Front-End Developer</p>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -44,59 +46,82 @@
     <div class="background">
 
         <main class="container">
-            <h3 class="spacing galleryHeader">My Work</h3>
+            <h3 class="spacing galleryHeader"> <u> My Work </u></h3>
             <div class="row gallery">
-                <div class="col-12 container spacing">
+                <div class="col-12 container container-fluid spacing">
                     <div class="row">
-                        <div class="col-5 work">
+                        <div class="card col-6 work" style="width: 18rem;">
                             <a href="https://gio86krt.github.io/WeatherDashboard/" target="_blank"><img
-                                    src="assets/weather.png" alt="placeholder"></a>
-                            <p><span class="workDescription">Weather Dashboard</span>:
-
-                                Search for a city and get the forecast for the next days.
-                            </p>
+                                    src="assets/weather.png" class="card-img-top" alt="weather dashboard app"></a>
+                            <div class="card-body">
+                                <span class="workDescription">Weather Dashboard</span>: <br>
+                                <p class="card-text">Search for a city and get the forecast for the next days.</p>
+                            </div>
                         </div>
-                        <div class="col-5 work">
-                            <a href="https://gio86krt.github.io/DailyPlanner/" target="_blank"><img
-                                    src="assets/planner.png" alt="placeholder"></a>
-                            <p><span class="workDescription"> Daily Planner</span>:
 
-                                Plan your day with this useful and practical tool.
-                            </p>
+                        <div class="card col-6 work" style="width: 18rem;">
+                            <a href="https://gio86krt.github.io/DailyPlanner/" target="_blank"> <img
+                                    src="assets/planner.png" class="card-img-top" alt="daily planner"></a>
+                            <div class="card-body">
+                                <span class="workDescription">Daily Planner</span>: <br>
+                                <p class="card-text"> Plan your day with this useful and practical tool.</p>
+                            </div>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-5 work">
+                        <div class="card col-6 work" style="width: 18rem;">
                             <a href="https://gio86krt.github.io/QuizProject/" target="_blank"><img src="assets/quiz.png"
-                                    alt="placeholder"></a>
-                            <p><span class="workDescription">Javascript Quiz</span>:
-
-                                Test your knowledge with our quiz!
-                            </p>
+                                    class="card-img-top" alt="javascript quiz"></a>
+                            <div class="card-body">
+                                <span class="workDescription">JavaScript Quiz</span>: <br>
+                                <p class="card-text"> Test your knowledge with our quiz!</p>
+                            </div>
                         </div>
-                        <div class="col-5 work">
-                            <a href="assets/300.png" target="_blank"><img src="assets/300.png" alt="placeholder"></a>
-                            <p>Work in progress</p>
+
+                        <div class="card col-6 work" style="width: 18rem;">
+                            <a href=" https://gio86krt.github.io/FrontEnd-EasyRedditTrackerForCrypto/" target="_blank">
+                                <img src="assets/reddit.png" class="card-img-top"
+                                    alt="reddit and crypto currencies app"></a>
+                            <div class="card-body">
+                                <span class="workDescription">Reddit App</span>: <br>
+                                <p class="card-text"> Be constantly up to date on latest crypto currencies value with
+                                    this useful App.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-5 work">
-                            <a href="assets/300.png" target="_blank"><img src="assets/300.png" alt="placeholder"></a>
-                            <p>Work in progress</p>
+                        <div class="card col-6 work" style="width: 18rem;">
+                            <a href="#" target="_blank">
+                                <img src="assets/300.png" class="card-img-top" alt="placeholder"></a>
+                            <div class="card-body">
+                                <span class="workDescription">Work in progress</span>: <br>
+                                <p class="card-text">Stay tuned for new works</p>
+                            </div>
                         </div>
-                        <div class="col-5 work">
-                            <a href="assets/300.png" target="_blank"><img src="assets/300.png" alt="placeholder"></a>
-                            <p>Work in progress</p>
+                        <div class="card col-6 work" style="width: 18rem;">
+                            <a href="#" target="_blank">
+                                <img src="assets/300.png" class="card-img-top" alt="placeholder"></a>
+                            <div class="card-body">
+                                <span class="workDescription">Work in progress</span>: <br>
+                                <p class="card-text">Stay tuned for new works</p>
+                            </div>
                         </div>
                     </div>
+
+
                 </div>
 
             </div>
-        </main>
+            <div class="container mb-3 col-2 quote">
+                <h5>Quote of the day:</h5>
+            </div>
+    </div>
+    </main>
     </div>
 
     <footer class="footer"><span><b> © Copyright 2021 </b></span></footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
