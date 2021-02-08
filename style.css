@@ -8,10 +8,10 @@
 
 main::before {
   content: "";
-  background-image: url("assets/bricks.jpg");
+  background-image: url("assets/stars.jpg");
   background-repeat: repeat;
   background-size: cover;
-  opacity: 0.3;
+  opacity: 0.5;
   top: 0;
   left: 0;
   bottom: 0;
@@ -24,8 +24,8 @@ main::before {
   margin-top: -20px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 42px;
-  text-shadow: 5px 5px 3px rgb(255, 0, 0), 10px 10px 8px rgb(255, 72, 0),
-    15px 15px 8px rgb(255, 238, 2);
+  text-shadow: 2px 6px 3px rgb(1, 167, 51), 10px 10px 8px rgb(1, 107, 67),
+    15px 15px 8px rgb(0, 70, 15);
 }
 
 .navbar {
@@ -36,9 +36,8 @@ main::before {
 }
 
 h3 {
-  color: rgb(250, 79, 0);
   font-family: Georgia, "Times New Roman", Times, serif;
-  text-shadow: 5px 5px 4px rgb(18, 152, 241);
+  text-shadow: 3px 3px 3px rgb(1, 148, 67);
 }
 /* footer fixed at the bottom of the page */
 .footer {
@@ -67,7 +66,6 @@ h3 {
 }
 
 h4 {
-  color: crimson;
   padding-right: 10px;
 }
 
@@ -84,7 +82,7 @@ h4 {
   height: fit-content;
   background-color: white;
   border: 1px solid rgb(214, 214, 214);
-  box-shadow: 5px 5px 3px rgb(243, 120, 5);
+  box-shadow: 5px 5px 3px rgb(1, 148, 67);
 }
 
 .tiny {
@@ -140,7 +138,7 @@ main p {
 
 .workDescription {
   font-size: 20px;
-  color: rgb(20, 131, 200);
+  /* color: rgb(20, 131, 200); */
 }
 
 @media screen and (max-width: 1295px) {
