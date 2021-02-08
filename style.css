@@ -1,5 +1,6 @@
 .background {
-  min-height: 600px;
+  min-height: 900px;
+  padding-bottom: 30px;
   width: auto;
   display: block;
   position: relative;
