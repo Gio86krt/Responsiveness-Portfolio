@@ -22,7 +22,7 @@ main::before {
 
 .navbar-brand {
   margin-top: -20px;
-  font-family: "Gochi Hand", cursive;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 42px;
   text-shadow: 5px 5px 3px rgb(255, 0, 0), 10px 10px 8px rgb(255, 72, 0),
     15px 15px 8px rgb(255, 238, 2);
@@ -37,7 +37,7 @@ main::before {
 
 h3 {
   color: rgb(250, 79, 0);
-  font-family: cursive;
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-shadow: 5px 5px 4px rgb(18, 152, 241);
 }
 /* footer fixed at the bottom of the page */
