@@ -94,7 +94,7 @@ function sendEmail(name, email, message) {
     .then((message) => {
       clearInputs();
       console.log(message);
-      alert("Message was send");
+      alert("Message was sent");
     })
     .catch((err) => {
       alert("Message not sent, try again!");
