@@ -13,6 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <title>Contacts</title>
 </head>
 
@@ -45,17 +46,18 @@
     </nav>
     <div class="background">
         <main class="container">
-            <form class="container form">
+            <form method="POST" class="container form">
                 <div class="row inputs">
                     <h3> <u> Get in touch: </u></h3>
                     <div class="col-7">
                         <div class="row spacing">
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="First name"
+                                <input type="text" class="form-control" id="name" placeholder="First name"
                                     aria-label="First name">
                             </div>
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                                <input type="text" class="form-control" id="lastName" placeholder="Last name"
+                                    aria-label="Last name">
                             </div>
                         </div>
                         <div class="row spacing">
@@ -71,7 +73,7 @@
                             </div>
                         </div>
                         <div class="col-auto">
-                            <button type="submit" class="btn send btn-primary">Send!</button>
+                            <button class="btn send btn-primary">Send!</button>
                         </div>
                     </div>
                 </div>

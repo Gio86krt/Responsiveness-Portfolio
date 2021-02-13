@@ -71,4 +71,29 @@ async function getData() {
   }
 }
 
+function getInputs(e) {
+  e.preventDefault();
+
+  let name = document.querySelector("#name").value;
+  let lastName = document.querySelector("#lastName").value;
+  let email = document.querySelector(".email").value;
+  let message = document.querySelector("#floatingTextarea2").value;
+  // console.log(name, email, message);
+  sendEmail(name, email, message);
+}
+
+function sendEmail(name, email, message) {
+  Email.send({
+    // Host: "smtp.gmail.com",
+    SecureToken: "54c85e71-4bb4-482d-91c9-fe30d4ea515c",
+    To: `webdevgiova86@gmail.com`,
+    From: `${email}`,
+    Subject: `${name} has sent you a message`,
+    Body: `${message}`,
+  })
+    .then((message) => console.log(message))
+    .catch((err) => console.log(err));
+}
+
 window.onload = getData();
+document.querySelector(".send").addEventListener("click", getInputs);
