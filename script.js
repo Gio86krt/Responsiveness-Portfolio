@@ -91,8 +91,22 @@ function sendEmail(name, email, message) {
     Subject: `${name} has sent you a message`,
     Body: `${message}`,
   })
-    .then((message) => console.log(message))
-    .catch((err) => console.log(err));
+    .then((message) => {
+      clearInputs();
+      console.log(message);
+      alert("Message was send");
+    })
+    .catch((err) => {
+      alert("Message not sent, try again!");
+      console.log(err);
+    });
+}
+
+function clearInputs() {
+  document.querySelector("#name").value = "";
+  document.querySelector("#lastName").value = "";
+  document.querySelector(".email").value = "";
+  document.querySelector("#floatingTextarea2").value = "";
 }
 
 window.onload = getData();
