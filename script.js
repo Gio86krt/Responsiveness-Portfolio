@@ -53,7 +53,7 @@ const quotes = [
 let index = Math.floor(Math.random() * quotes.length);
 
 async function getData() {
-  let url = `https://quotes-inspirational-quotes-motivational-quotes.p.rapidapi.com/quote?rapidapi-key=4ce060cc20msh979307ea98f66b2p1d7958jsnbdd5527db2b6`;
+  let url = `https://quotes-inspirational-quotes-motivational-quotes.p.rapidapi.com/quote?`; //rapidapi-key=4ce060cc20msh979307ea98f66b2p1d7958jsnbdd5527db2b6
   let result = await fetch(url).then((res) => res.json());
 
   if (!result.text) {
